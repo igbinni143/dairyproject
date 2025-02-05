@@ -1,0 +1,62 @@
+.formdiv {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	padding: 20px;
+	margin: auto;
+	height: 80vh;
+	min-width: 500px;
+	width: 60vw;
+	/*border: solid 1px;*/
+
+	.login {
+		display: flex;
+		flex-direction: column;
+		font-size: 1rem;
+		line-height: 2.3rem;
+	}
+	input {
+		border-radius: 5px;
+		height: 2.2rem;
+		margin: 10px 0px;
+		min-width: 340px;
+		width: 25vw;
+		border: solid 1px #acacac;
+	}
+}
+
+.explain {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: left;
+	gap: 20px;
+	width: 25vw;
+
+	a {
+		color: #a4a4a4;
+	}
+	a:focus,
+	a:hover {
+		cursor: pointer;
+		color: var(--primary);
+	}
+}
+.FormButton {
+	min-width: 340px;
+	width: 25vw;
+	height: 2.5rem;
+	display: flex;
+	justify-content: center;
+	align-content: cent;
+	align-items: center;
+	/*background-color: #2762f5;*/
+	background-color: var(--primary);
+	color: white;
+	border: none;
+	border-radius: 5px;
+	font-size: 1rem;
+	margin-top: 30px;
+}
